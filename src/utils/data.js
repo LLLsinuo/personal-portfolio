@@ -75,7 +75,7 @@ export const PROJECTS = [
     {
         title: "Senior Frontend Developer at Tech Innovators",
         date: "January 2022 - Present",
-        link: "https://github.1",
+        link: "https://www.baidu.com",
         images: [
             { src: "./assets/images/pic1.1.jpg", width: "100px" },
             { src: "./assets/images/pic1.2.jpg", width: "390px" },
@@ -117,24 +117,24 @@ export const EDUCATION = [
     id: 1,
     category: "education",
     icon: "icon-graduation",
-    year: "2015-2019",
-    title: "计算机科学学士",
-    desc: "某某大学，主修计算机科学，GPA 3.8/4.0"
+    year: "2020 - 2024",
+    title: "Harbin Institute of Technology",
+    desc: "Bachelor's Degree"
   },
   {
     id: 2,
     category: "education",
     icon: "icon-graduation",
-    year: "2019-2021",
-    title: "软件工程硕士", 
-    desc: "某某大学，研究方向为人工智能"
+    year: "2024 - 2025",
+    title: "The University of Hong Kong", 
+    desc: "Master's Degree"
   },
   {
     id: 3,
     category: "experience",
     icon: "icon-briefcase",
     year: "2021-2022",
-    title: "前端开发工程师",
-    desc: "某某科技公司，负责React项目开发"
+    title: "123",
+    desc: "321"
   },
 ];

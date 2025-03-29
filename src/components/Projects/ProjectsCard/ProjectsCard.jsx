@@ -11,7 +11,9 @@ const ProjectsCard = ({ details }) => {
 
             <div className="duration-link-container">
                 <div className="duration">{details.date}</div>
-                <div className="link">{details.link}</div>
+                <a href={details.link} className="link" target="_blank" rel="noopener noreferrer">
+                    {details.link}
+                </a>
             </div>
 
             <ul>
