@@ -1,0 +1,46 @@
+/* .footer {
+    font-size: 0.8rem;
+    text-align: center;
+    background: linear-gradient(90deg, #3D3072 0%, #423477 100%);
+    padding: 1rem;
+} */
+
+.footer {
+    /* background: #130f2a; */
+    background: linear-gradient(90deg, #3D3072 0%, #423477 100%);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.footer-content {
+    margin-bottom: 0.1rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.1rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+}
+
+.contact-text {
+    font-size: 1rem;
+}
