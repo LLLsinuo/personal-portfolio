@@ -1,7 +1,21 @@
 import React from "react";
 import './ProjectsCard.css'
+import Slider from "react-slick";
 
 const ProjectsCard = ({ details }) => {
+
+    const hasImages = details.images && details.images.length > 0;
+
+    const sliderSettings = {
+        // dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: hasImages,
+        adaptiveHeight: false
+    };
+
     return (
         <div className="projects-card">
             <h6>{details.title}</h6>
@@ -22,7 +36,7 @@ const ProjectsCard = ({ details }) => {
                 ))}
             </ul>
 
-            <div className="images-container">
+            {/* <div className="images-container">
                 {(details.images || []).map((image, index) => (
                     <img
                         key={index}
@@ -32,8 +46,21 @@ const ProjectsCard = ({ details }) => {
                         style={{ width: image.width }}
                     />
                 ))}
+            </div> */}
+            <div className="slider-container">
+                <Slider {...sliderSettings}>
+                    {(details.images || []).map((image, index) => (
+                        <div key={index} className="slide-item">
+                            <img
+                                src={image.src}
+                                alt={details.title + ' - ' + (index + 1)}
+                                className="project-image"
+                            />
+                        </div>
+                    ))}
+                </Slider>
             </div>
-            
+
         </div>
     )
 }
