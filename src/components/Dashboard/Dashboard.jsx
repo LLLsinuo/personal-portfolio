@@ -5,10 +5,11 @@ const Dashboard = () => {
     return (
         <section className="dashboard-container">
             <div className="dashboard-content">
-                <h2>Building Digital Experiences The Insprie</h2>
+                <h2>Li Sinuo</h2>
                 <p>
-                    Passionate Frontend Developer | Transforming Ideas into Seamless and
-                    Visually Stunning Web Solutions
+                    邮箱: lsn_lisinuo@163.com <br />
+                    GitHub: https://github.com/LLLsinuo <br />
+                    求职意向：前端开发工程师
                 </p>
             </div>
 

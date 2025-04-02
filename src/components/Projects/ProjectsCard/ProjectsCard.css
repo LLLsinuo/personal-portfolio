@@ -66,21 +66,26 @@
     border-radius: 0.3rem;
     padding: 0.4rem 0.6rem;
     margin-bottom: 1.3rem;
+    white-space: nowrap;
 }
 
 .link {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
-    margin-left: 5rem;
+    margin-left: 3rem;
     text-decoration: none;
-    color: #dfe91b;
+    color: #fff;
+    white-space: nowrap;
 }
 
 .link:hover {
     text-decoration: underline;
-    /* 悬停时显示下划线 */
-    text-decoration-color: #dfe91b;
-    /* 下划线颜色 */
+    text-decoration-color: #fff;
+}
+
+.description {
+    font-size: 0.8rem;
+    margin-bottom: 1.3rem;
 }
 
 .projects-card ul li {

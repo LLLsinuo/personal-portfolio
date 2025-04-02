@@ -13,7 +13,9 @@ const ProjectsCard = ({ details }) => {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: hasImages,
-        adaptiveHeight: false
+        adaptiveHeight: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
     };
 
     return (
@@ -29,6 +31,8 @@ const ProjectsCard = ({ details }) => {
                     {details.link}
                 </a>
             </div>
+
+            <div className="description">{details.description}</div>
 
             <ul>
                 {details.responsibilities.map((item) => (

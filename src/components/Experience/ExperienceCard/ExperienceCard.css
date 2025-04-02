@@ -22,6 +22,10 @@
     margin-bottom: 0.7rem;
 }
 
+.duration-job-container {
+    display: flex;
+}
+
 .duration {
     display: inline-block;
     font-size: 0.7rem;
@@ -30,6 +34,16 @@
     border-radius: 0.3rem;
     padding: 0.4rem 0.6rem;
     margin-bottom: 1.3rem;
+    white-space: nowrap;
+}
+
+.job {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-left: 9rem;
+    text-decoration: none;
+    color: #fff;
+    white-space: nowrap;
 }
 
 .experience-card ul li {
